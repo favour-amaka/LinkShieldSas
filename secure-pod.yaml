@@ -4,7 +4,7 @@ metadata:
   name: secure-app-pod
   namespace: default
 spec:
-  serviceAccountName: previewer-sa
+  serviceAccountName: linkshield-sa
   containers:
   - name: app-container
     image: alpine
